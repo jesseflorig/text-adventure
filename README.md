@@ -13,17 +13,38 @@ adventure // The contents of the adventure
 The player state
 ```javascript
 {
-  name: String,
-  inventory: [
-    { 
-      name: String,
-      qty: Number,
-    }
-  ]
+  name: String
+  inventory: [Slot]
 }
 ```
 
 ## NPC
-
+Collection of NPCs
+```javascript
+{
+  name: String
+  descriptions: [Description]
+  dialogues: [Dialogue]
+  reaction: [Reactions]
+}
+```
 
 ## Room
+Collection of rooms
+```javascript
+{
+  name: String
+  desc: String
+  doors: [Door]
+}
+```
+
+## Item
+Collection of items
+```javascript
+{
+  name: String
+  descriptions: [Description]
+  actions: [Action]
+}
+```
