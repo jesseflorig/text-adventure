@@ -14,7 +14,9 @@ The player state
 ```javascript
 {
   name: String
-  inventory: [Slot]
+  health: number
+  inventory: [Slot]i
+  location: Room
 }
 ```
 
