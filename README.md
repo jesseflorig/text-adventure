@@ -13,9 +13,10 @@ adventure // The contents of the adventure
 The player state
 ```javascript
 {
+  actions: [Action]
   name: String
   health: number
-  inventory: [Slot]i
+  inventory: [Slot]
   location: Room
 }
 ```
